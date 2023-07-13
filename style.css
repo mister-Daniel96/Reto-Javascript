@@ -136,10 +136,15 @@ body {
   margin-top: 50px;
 }
 .modal-navbar__link {
+  display: block;
+  width: 100%;
   text-decoration: none;
   color: hsl(220, 13%, 13%);
   font-weight: 700;
   font-size: 1.1em;
+}
+.modal-navbar__link:hover {
+  border-bottom: 4px solid hsl(26, 100%, 55%);
 }
 .modal-navbar__close-icon:hover {
   cursor: pointer;
@@ -496,6 +501,10 @@ body {
     padding: 90px 50px;
     gap: 124px;
   }
+}
+
+.show {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
