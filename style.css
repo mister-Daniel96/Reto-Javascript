@@ -409,9 +409,8 @@ body {
   height: 100%;
   z-index: 1;
   display: none;
-  display: grid;
-  place-content: center;
   display: none;
+  place-content: center;
 }
 .modal-gallery__close-container {
   text-align: right;
