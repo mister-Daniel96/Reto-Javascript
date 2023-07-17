@@ -28,10 +28,12 @@
     @media (min-width:1115px) {
         @if($showDesktop==true) {
             display: block;
+            z-index: 0;//esto es nuevo por mi
         }
 
         @else {
             display: none;
+            z-index: 1000;//esto es nuevo por mi
         }
     }
 }

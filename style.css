@@ -178,6 +178,7 @@ body {
 @media (min-width: 1115px) {
   .gallery__previus {
     display: none;
+    z-index: 1000;
   }
 }
 .gallery__next {
@@ -196,6 +197,7 @@ body {
 @media (min-width: 1115px) {
   .gallery__next {
     display: none;
+    z-index: 1000;
   }
 }
 .gallery__thumnails {
@@ -461,6 +463,7 @@ body {
 @media (min-width: 1115px) {
   .modal-gallery__previus {
     display: block;
+    z-index: 0;
   }
 }
 .modal-gallery__next {
@@ -479,6 +482,7 @@ body {
 @media (min-width: 1115px) {
   .modal-gallery__next {
     display: block;
+    z-index: 0;
   }
 }
 
